@@ -3,6 +3,9 @@ import { shallow, mount } from 'enzyme';
 import App from './App';
 
 it('renders App with className app', () => {
+  const shallowApp = shallow(<App />);
+
+  // expect(shallowApp.find(App).hasClass('app'))
 });
 
 it('initial state starts with an empty array', () => {

@@ -1,5 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ThoughtList should match the snapshot with no thoughts 1`] = `<div />`;
+exports[`ThoughtList should match the snapshot with no thoughts 1`] = `
+<div
+  className="thought-list"
+/>
+`;
 
-exports[`ThoughtList should match the snapshot with thoughts 1`] = `<div />`;
+exports[`ThoughtList should match the snapshot with thoughts 1`] = `
+<div
+  className="thought-list"
+>
+  <div>
+    <h3>
+      title
+    </h3>
+    <p>
+      body
+    </p>
+  </div>
+</div>
+`;

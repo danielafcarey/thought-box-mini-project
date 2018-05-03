@@ -1,9 +1,10 @@
 import React from 'react';
 
-export const ThoughtCard = () => {
+export const ThoughtCard = ({ title, body }) => {
   return (
     <div>
-      ThoughtCard
+      <h3>{ title }</h3> 
+      <p>{ body }</p>
     </div>
   )
 }

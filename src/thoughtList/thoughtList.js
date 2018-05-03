@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const ThoughtList = () => {
+export const ThoughtList = ({ thoughtList }) => {
 
   return (
     <div>
-    ThoughtList
+
     </div>
   );
 }
